@@ -1,8 +1,7 @@
 CREATE TABLE "posts" (
-	"id" SERIAL PRIMARY KEY,
-	"username" TEXT NOT NULL,
-	"title" TEXT NOT NULL,
-	"body" TEXT NOT NULL,
-	"createAt" New Date( NOT NULL)
-
-)
+    "id" SERIAL PRIMARY KEY,
+    "username" TEXT NOT NULL,
+    "title" TEXT NOT NULL,
+    "content" TEXT NOT NULL,
+    "createAt" DATE NOT NULL
+);
